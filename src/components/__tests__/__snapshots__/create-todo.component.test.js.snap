@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CreateTodo 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 10,
+    }
+  }
+>
+  <h3>
+    Create New Todo
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Title: 
+      </label>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="MuiFormControl-root-1 undefined form-control"
+      >
+        <label
+          className="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12"
+          data-shrink={true}
+          htmlFor="date"
+        >
+          Due Date
+        </label>
+        <div
+          className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input-46 MuiInput-input-31 MuiInputBase-inputType-49 MuiInput-inputType-34"
+            disabled={false}
+            id="date"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="date"
+            value="2019-03-17"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Description: 
+      </label>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Responsible: 
+      </label>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          id="priorityLow"
+          name="priorityOptions"
+          onChange={[Function]}
+          type="radio"
+          value="Low"
+        />
+        <label
+          className="form-check-label"
+        >
+          Low
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          id="priorityMedium"
+          name="priorityOptions"
+          onChange={[Function]}
+          type="radio"
+          value="Medium"
+        />
+        <label
+          className="form-check-label"
+        >
+          Medium
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          id="priorityHigh"
+          name="priorityOptions"
+          onChange={[Function]}
+          type="radio"
+          value="High"
+        />
+        <label
+          className="form-check-label"
+        >
+          High
+        </label>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        className="btn btn-primary"
+        type="submit"
+        value="Create Todo"
+      />
+    </div>
+  </form>
+</div>
+`;
